@@ -100,7 +100,6 @@ const UserInformation = ({ activeStep, errors, values, setFieldValue }) => {
             <DatePicker
               value={values.dob}
               name="dob"
-              size="small"
               onChange={(newValue) => setFieldValue("dob", newValue)}
             />
           </LocalizationProvider>
