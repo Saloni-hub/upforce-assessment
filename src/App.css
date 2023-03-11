@@ -51,24 +51,7 @@
   display: flex;
   justify-content: space-between;
 }
-/* .mt-2{
-  margin-top: 12px;
-} */
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-  padding: 8px 8px !important;
-}
-.css-wb57ya-MuiFormControl-root-MuiTextField-root{
-  padding-left: 12px !important;
-}
-.css-q8hpuo-MuiFormControl-root{
-  padding-left: 14px !important;
-}
-.css-1azl6jz-MuiTableCell-root {
-  text-align: start !important;
-}
-.css-177gid-MuiTableCell-root {
-  text-align: start !important;
-}
+
 .footerButton{
   padding-left: 14px;
   padding-top: 12px;
@@ -78,6 +61,7 @@
   font-size: 12px;
   font-weight: 600;
   margin-top: 8px;
+  padding-left: 4px;
 }
 .successs-toast{
   color: mediumseagreen;
@@ -93,4 +77,11 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.pl-3{
+  padding-left: 12px !important;
+}
+.text-start{
+  text-align: start !important;
 }

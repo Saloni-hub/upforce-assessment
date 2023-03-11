@@ -71,7 +71,7 @@ const FinalFormValue = ({ values, activeStep }) => {
           <TableHead>
             <TableRow>
               <TableCell>Name</TableCell>
-              <TableCell align="right">Value</TableCell>
+              <TableCell align="right" className="text-start">Value</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -83,7 +83,7 @@ const FinalFormValue = ({ values, activeStep }) => {
                 <TableCell component="th" scope="row">
                   {row.name}
                 </TableCell>
-                <TableCell align="right">{row.value}</TableCell>
+                <TableCell align="right" className="text-start">{row.value}</TableCell>
               </TableRow>
             ))}
           </TableBody>

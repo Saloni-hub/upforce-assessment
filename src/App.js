@@ -96,7 +96,7 @@ function App() {
                   variant="contained"
                   href="#contained-buttons"
                   onClick={handleNextClick}
-                  disabled={!checkValid(errors, STEPS[activeStep].keys)}
+                  // disabled={!checkValid(errors, STEPS[activeStep].keys)}
                 >
                   Next
                 </Button>
