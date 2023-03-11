@@ -1,38 +1,96 @@
+
 .App {
-  text-align: center;
+  margin: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-container{
+  height: 90vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 24px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.customerProgresscontainer {
+  height: 48px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 16px;
+}
+
+.pointContainers {
+  height: 16px;
+  width: 16px;
+  border-radius: 40px;
+  border: 1px solid #cee4ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 40px !important;
+}
+.bg-gray{
+  background: gray;
+}
+.bg-blue{
+  background: rgb(0, 103, 226);
+}
+.pointTxt {
+  font-size: 10px;
+}
+.pointLink {
+  height: 2px;
+  width: 32px;
+}
+.mr-2{
+  margin-right: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+/* .mt-2{
+  margin-top: 12px;
+} */
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 8px 8px !important;
+}
+.css-wb57ya-MuiFormControl-root-MuiTextField-root{
+  padding-left: 12px !important;
+}
+.css-q8hpuo-MuiFormControl-root{
+  padding-left: 14px !important;
+}
+.css-1azl6jz-MuiTableCell-root {
+  text-align: start !important;
+}
+.css-177gid-MuiTableCell-root {
+  text-align: start !important;
+}
+.footerButton{
+  padding-left: 14px;
+  padding-top: 12px;
+}
+.formError {
+  color: #eb5757;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.successs-toast{
+  color: mediumseagreen;
+  font-weight: 700;
+  font-size: 24px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
